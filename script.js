@@ -11,7 +11,7 @@ getcnydata();
 function foo(data)
 {
     let container = document.createElement("div")
-    container.setAttribute('class','container')
+    container.setAttribute('class','container-fluid')
 
     let row = document.createElement("div")
     row.setAttribute('class','row')
