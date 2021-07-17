@@ -30,7 +30,7 @@ function foo(data)
         let cardbody = document.createElement("div")
         cardbody.setAttribute('class','card-body')
 
-        let cardtitle = document.createElement("h4")
+        let cardtitle = document.createElement("h2")
         cardtitle.setAttribute('class','card-title')
         cardtitle.innerHTML = element.name
         let cardtext = document.createElement("div")
